@@ -12,8 +12,7 @@ Imports:
     stringr,
     GEOquery,
     affy,
-    tibble,
-	Biobase
+    tibble
 Suggests: 
     BiocGenerics,
     knitr,
