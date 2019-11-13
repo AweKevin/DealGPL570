@@ -9,7 +9,7 @@
 
 * This is a new release.
 Because I want to show how to deal from raw data of GPL570, so I put a minimum size of such a file under inst/extdata.
-This is my first time submissing a R package to CRAN, I'm here to apologize for trouble I've caused! 
+This is my first time submissing a R package to CRAN, I'm here to apologize for the trouble I've caused! 
 My e-mail address is "15776658849@163.com", and it is quite stable!
 
 
