@@ -4,7 +4,7 @@
 #' @param type a character string indicating which type of data frame is to be outputted. One of 'probeIDAndGeneSymbol'(default), 'probeID', or 'geneSymbol'.
 #' @return a data frame which is a expression profile.
 #' @import dplyr
-#' @importFrom Biobase exprs
+#' @import affy
 #' @importFrom GEOquery gunzip
 #' @importFrom stats aggregate median
 #' @importFrom utils untar
