@@ -21,7 +21,7 @@
 DealGPL570 <- function(file, type = "probeIDAndGeneSymbol") {
     exdir <- file %>% stringr::str_extract("GSE\\d+")
     untar(file, exdir = exdir)
-    gz <- list.files(path = exdir, pattern = "[gz]")
+    gz <- list.files(path = exdir, pattern = "*.gz$")
     sapply(paste(exdir, gz, sep = "/"), gunzip)
     cels <- affy::list.celfiles(exdir, full.names = T)
     l <- do.call(c, lapply(cels, FUN = function(x) {
